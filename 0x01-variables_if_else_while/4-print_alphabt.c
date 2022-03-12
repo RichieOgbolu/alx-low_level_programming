@@ -15,7 +15,6 @@ int main(void)
 	while (i < 26)
 	{
 		if (alpha != 'q' && alpha != 'e')
-
 			putchar(alpha);
 			alpha++;
 			i++;
