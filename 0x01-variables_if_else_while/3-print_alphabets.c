@@ -19,6 +19,7 @@ int main(void)
 		i++;
 	}
 	alpha = 'A';
+	i = 0;
 
 	while (i < 26)
 	{
