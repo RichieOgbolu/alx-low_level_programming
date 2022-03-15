@@ -1,15 +1,16 @@
 #include "holberton.h"
 
 /**
- * _putchar - Entry point
+ * main - Entry point
  * Description: Prints putchar
  * Return: Always 0 (Success)
  * @c: character to be displayed
 */
 
-int _putchar(char c)
+int main(void)
 {
-	_putchar("putchar");
-	_putchar('\n');
+	char alpha[] = "_putchar\n";
+
+	_putchar(alpha);
 	return (0);
 }
