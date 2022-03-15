@@ -16,6 +16,6 @@ int main(void)
 	{
 		_putchar(alpha[i]);
 		i++;
-		return (0);
 	}
+	return (0);
 }
