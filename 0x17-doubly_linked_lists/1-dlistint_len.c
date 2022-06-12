@@ -1,30 +1,21 @@
 #include "lists.h"
 
 /**
- * dlistint_len -  a function
- * @h: the head of list
+ * dlistint_len - function
+ * @h: param
  *
- * Return: number element of the link list
+ * Return: Number of node
  */
-
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t nb = 0;
-	const dlistint_t *ptr;
+	int count = 0;
 
-	if (h == 0)
-		return (nb);
-	/*Recherche de la tete de liste*/
-	if (h->prev != NULL)
-		while (h->prev != NULL)
-			h = h->prev;
-	ptr = h;
-	while (ptr != NULL)
+	if (h == NULL)
+		return (0);
+	while (h != NULL)
 	{
-		nb++;
-		ptr = ptr->next;
+		h = h->next;
+		count++;
 	}
-
-	return (nb);
+	return (count);
 }
-

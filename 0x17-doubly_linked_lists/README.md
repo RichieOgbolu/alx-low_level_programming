@@ -1,2 +1,1 @@
-# alx-higher_level_programming
-ALX Holberton python programme
+0x17. C - Doubly linked lists
